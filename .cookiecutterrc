@@ -17,7 +17,7 @@
 default_context:
 
     _extensions:               [u'jinja2_time.TimeExtension']
-    _template:                 'gh:ionelmc/cookiecutter-pylibrary'
+    _template:                 '/home/charlles/.cookiecutters/cookiecutter-pylibrary/'
     appveyor:                  'no'
     c_extension_function:      'longest'
     c_extension_module:        '_atomstoys'
@@ -27,7 +27,7 @@ default_context:
     codacy_projectid:          'Get ID from https://app.codacy.com/app/craabreu/atomstoys/settings'
     codeclimate:               'no'
     codecov:                   'yes'
-    command_line_interface:    'argparse'
+    command_line_interface:    'no'
     command_line_interface_bin_name: 'atomstoys'
     coveralls:                 'no'
     coveralls_token:           'Required for Appveyor, take it from https://coveralls.io/github/craabreu/atomstoys'
